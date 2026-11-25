@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://devconnect-backend-ozqu.onrender.com"
+      "destination": "https://devconnect-backend-ozqu.onrender.com/:path*"
     },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
